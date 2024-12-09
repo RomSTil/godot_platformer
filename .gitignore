@@ -1,6 +1,5 @@
 # Godot 4+ specific ignores
 .import/
-*.godot
 *.tmp
 *.import
 *.mono
