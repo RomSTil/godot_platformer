@@ -19,7 +19,7 @@ func _physics_process(delta: float) -> void:
 		$CollisionShape2D/AnimatedSprite2D.flip_h = direction < 0
 		$CollisionShape2D/AnimatedSprite2D.play("run")
 	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED * delta)
+		velocity.x = move_toward(velocity.x, 0, SPEED)
 		$CollisionShape2D/AnimatedSprite2D.play("idle")
 
 	# Движение персонажа.

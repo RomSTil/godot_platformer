@@ -1,8 +1,8 @@
 [gd_scene load_steps=16 format=3 uid="uid://b67eevli56gfr"]
 
 [ext_resource type="Script" path="res://Scenes/player.gd" id="1_ar4qn"]
-[ext_resource type="Texture2D" uid="uid://dt8k81w3cgixw" path="res://Assets/Sprite-0016.png" id="2_rhfgp"]
-[ext_resource type="Texture2D" uid="uid://noo05cbd7iq7" path="res://Assets/AnimationRack.png" id="2_wygyj"]
+[ext_resource type="Texture2D" uid="uid://dt8k81w3cgixw" path="res://Sprite-0016.png" id="2_rhfgp"]
+[ext_resource type="Texture2D" uid="uid://noo05cbd7iq7" path="res://Assets/animations/AnimationRack.png" id="2_wygyj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yc2xf"]
 size = Vector2(20.5, 31.75)
@@ -101,7 +101,8 @@ shape = SubResource("RectangleShape2D_yc2xf")
 one_way_collision_margin = 0.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CollisionShape2D"]
-scale = Vector2(2, 2)
+position = Vector2(-5.96046e-08, -0.375)
+scale = Vector2(2.03125, 2)
 sprite_frames = SubResource("SpriteFrames_2qvnl")
 animation = &"idle"
 frame = 1
